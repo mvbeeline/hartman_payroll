@@ -1,0 +1,289 @@
+body {
+    /*background-image: url(../images/boat_wake.jpg);
+    background-attachment: fixed;*/
+    width: 960px;
+    height: auto;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header {
+    width: 960px;
+    height: 75px;
+    display: inline;
+    float: left;
+    border-bottom: 1px solid black;
+}
+.header_1 {
+    width: 960px;
+    display: inline;
+    float: left;
+    border-bottom: 1px solid black;
+}
+#header {
+    display: inline;
+    float: left;
+    width: 500px;
+    height: 100px;
+}
+#header_1 {
+    font-family:cursive;
+    margin: 20px 0px 0px 50px;
+    padding: 0px;
+}
+#header_2 {
+    display: inline;
+    float: left;
+    font-family:cursive;
+    margin: 0px 0px 0px 50px;
+    padding: 0px;
+}
+#header_3 {
+    text-align: center;
+     margin: 35px 0px 0px 155px;
+}
+.footer {
+    display: inline;
+    float: left;
+    padding: 5px;
+    height: 50px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer_links {
+    
+    padding: 1px 0px;
+    height: 125px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px;
+    height: 40px;
+    width: 900px;
+}
+#footer_left {
+    display: inline;
+    float: left;
+    height: 48px;
+    width: 300px;
+}
+#footer_right {
+    display: inline;
+    float: right;
+    height: 48px;
+    width: 300px;
+    text-align: right;
+}
+
+#login {
+    width: 350px;
+    margin: 10px 10px;
+    padding: 0px 0px 0px 0px;
+}
+#user_id_1 {
+    width: 350px;
+    margin: 10px 10px 10px 30px;
+    padding: 0px 0px 0px 0px; 
+}
+#user_id {
+    margin: 0px 0px 0px 23px;
+    padding: 2px 0px;
+}
+#password {
+    width: 350px;
+    margin: 10px 0px 0px 30px;
+    padding: 0px 0px 0px 0px; 
+}
+#pass{
+    margin: 0px 0px 0px 10px;
+    padding: 2px 0px;
+}
+#login_submit {
+    margin: 0px 0px 0px 15px;
+    padding: 2px 10px; 
+}
+
+#forgot_pass {
+    width: 115px;
+    margin: 25px 0px 0px 120px;
+    padding: 0px 0px 0px 0px; 
+}
+.ticket {
+    display: inline;
+    float:left;
+    width: 600px;
+    margin: 10px 0px 0px 50px;
+    padding: 10px; 
+}
+#date,
+#job,
+#description,
+#time_in,
+#time_out,
+#lunch {
+    display: inline;
+    float:left;
+    margin: 10px 0px;
+    padding: 5px;
+}
+#date_1,
+#job_1,
+#time_in_1,
+#time_out_1,
+#description_1,
+#lunch_1 {
+    display: inline;
+    float:left;
+    width: 150px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#date_3 {
+    display: inline;
+    float:left;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#description_text,
+#lunch_time_1 {
+    display: inline;
+    float:left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#date_2,
+#time_in_2,
+#time_out_2,
+#description_2,
+#lunch_2 {
+    display: inline;
+    float:left;
+    width: 125px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.time_3 {
+    display: inline;
+    float:left;
+    width: 400px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.hour_1 {
+    display: inline;
+    float:left;
+    width: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.minute_1 {
+    display: inline;
+    float:left;
+    width: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.am_pm_1 {
+    display: inline;
+    float:left;
+    width: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.hour,
+.minute,
+.am_pm {
+    display: inline;
+    float:left;
+    width: 75px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#month_1,
+#day_1,
+#year_1 {
+    display: inline;
+    float:left;
+    margin: 0px 0px;
+    padding: 0px 2px;
+}
+#lunch {
+    width: 400px;
+}
+#time_submit {
+    display: inline;
+    float: right;
+}
+#description_3 {
+    color: red;
+    border-color: red;
+}
+#job_list_1,
+#minute_in_error,
+#hour_in_error,
+#hour_out_error,
+#am_pm_in_error,
+#am_pm_out_error,
+#minute_out_error,
+#lunch_time_error {
+    border-color: red;
+}
+#job_error {
+    margin: 5px;
+    padding: 5px;
+}
+.error {
+    color: red;
+    margin: 5px;
+    padding: 5px;
+}
+.day,
+.date,
+.time_in,
+.time_out,
+.job,
+.desc,
+.lunch,
+.hours {
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin: 0px;
+    padding: 1px;
+}
+.day {
+    width: 70px;
+}
+.date {
+    width: 100px;
+}
+.time_in,
+.time_out {
+    width: 70px;
+}
+.job {
+    min-width: 75px;
+    max-width: 120px;
+}
+.lunch {
+    width: 70px;
+}
+.hours {
+    width: 75px;
+}
+.desc {
+    max-width: 250px;
+    max-height: 50px;
+}
+
+
+
+
